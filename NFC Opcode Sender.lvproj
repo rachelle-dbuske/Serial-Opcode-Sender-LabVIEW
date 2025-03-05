@@ -12,9 +12,11 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="subVIs" Type="Folder">
 			<Item Name="Import Commands.vi" Type="VI" URL="../Import Commands.vi"/>
+			<Item Name="Send single command.vi" Type="VI" URL="../Send single command.vi"/>
 		</Item>
 		<Item Name="support" Type="Folder">
 			<Item Name="Main Events.ctl" Type="VI" URL="../Main Events.ctl"/>
+			<Item Name="Script Step Data.ctl" Type="VI" URL="../Script Step Data.ctl"/>
 			<Item Name="Serial Settings.ctl" Type="VI" URL="../Serial Settings.ctl"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
