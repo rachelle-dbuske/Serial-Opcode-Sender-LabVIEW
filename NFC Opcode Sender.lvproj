@@ -11,20 +11,21 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="subVIs" Type="Folder">
+			<Item Name="Create Chained Command.vi" Type="VI" URL="../Create Chained Command.vi"/>
 			<Item Name="Get Command Info from library.vi" Type="VI" URL="../Get Command Info from library.vi"/>
 			<Item Name="Import Commands.vi" Type="VI" URL="../Import Commands.vi"/>
 			<Item Name="Normal String to Hex String.vi" Type="VI" URL="../Normal String to Hex String.vi"/>
-			<Item Name="Send Single Command.vi" Type="VI" URL="../Send Single Command.vi"/>
+			<Item Name="Send Command.vi" Type="VI" URL="../Send Command.vi"/>
+			<Item Name="Wait for Response.vi" Type="VI" URL="../Wait for Response.vi"/>
 		</Item>
 		<Item Name="support" Type="Folder">
 			<Item Name="Command Library Data.ctl" Type="VI" URL="../Command Library Data.ctl"/>
-			<Item Name="Data Cluster (all strings for now).ctl" Type="VI" URL="../Data Cluster (all strings for now).ctl"/>
+			<Item Name="Data Cluster.ctl" Type="VI" URL="../Data Cluster.ctl"/>
 			<Item Name="Main Events.ctl" Type="VI" URL="../Main Events.ctl"/>
 			<Item Name="Script Step Data.ctl" Type="VI" URL="../Script Step Data.ctl"/>
 			<Item Name="Serial Settings.ctl" Type="VI" URL="../Serial Settings.ctl"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Send Chained Command.vi" Type="VI" URL="../Send Chained Command.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
