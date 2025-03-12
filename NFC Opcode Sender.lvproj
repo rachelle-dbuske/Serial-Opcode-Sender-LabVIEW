@@ -27,7 +27,9 @@
 			<Item Name="Serial Settings.ctl" Type="VI" URL="../Serial Settings.ctl"/>
 		</Item>
 		<Item Name="1.ico" Type="Document" URL="../../../Users/rxb1220/OneDrive - Dexcom/Pictures/1.ico"/>
+		<Item Name="Create chained opcode.vi" Type="VI" URL="../Create chained opcode.vi"/>
 		<Item Name="G7 Commands List.xlsx" Type="Document" URL="../G7 Commands List.xlsx"/>
+		<Item Name="Get cmd info from step name.vi" Type="VI" URL="../Get cmd info from step name.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
