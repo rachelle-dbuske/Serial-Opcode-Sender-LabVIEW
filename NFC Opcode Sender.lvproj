@@ -12,6 +12,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="subVIs" Type="Folder">
 			<Item Name="Create Chained Command.vi" Type="VI" URL="../Create Chained Command.vi"/>
+			<Item Name="Create chained opcode.vi" Type="VI" URL="../Create chained opcode.vi"/>
+			<Item Name="Get cmd info from step name.vi" Type="VI" URL="../Get cmd info from step name.vi"/>
 			<Item Name="Get Command Info from library.vi" Type="VI" URL="../Get Command Info from library.vi"/>
 			<Item Name="Import Commands.vi" Type="VI" URL="../Import Commands.vi"/>
 			<Item Name="Normal String to Hex String.vi" Type="VI" URL="../Normal String to Hex String.vi"/>
@@ -27,9 +29,8 @@
 			<Item Name="Serial Settings.ctl" Type="VI" URL="../Serial Settings.ctl"/>
 		</Item>
 		<Item Name="1.ico" Type="Document" URL="../../../Users/rxb1220/OneDrive - Dexcom/Pictures/1.ico"/>
-		<Item Name="Create chained opcode.vi" Type="VI" URL="../Create chained opcode.vi"/>
+		<Item Name="Convert Tx Rx data to display.vi" Type="VI" URL="../Convert Tx Rx data to display.vi"/>
 		<Item Name="G7 Commands List.xlsx" Type="Document" URL="../G7 Commands List.xlsx"/>
-		<Item Name="Get cmd info from step name.vi" Type="VI" URL="../Get cmd info from step name.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
