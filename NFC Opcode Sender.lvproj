@@ -11,16 +11,17 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="subVIs" Type="Folder">
-			<Item Name="Check Response.vi" Type="VI" URL="../Check Response.vi"/>
 			<Item Name="Convert Tx Rx data to display.vi" Type="VI" URL="../Convert Tx Rx data to display.vi"/>
 			<Item Name="Create Chained Command.vi" Type="VI" URL="../Create Chained Command.vi"/>
 			<Item Name="Create chained opcode.vi" Type="VI" URL="../Create chained opcode.vi"/>
+			<Item Name="Decode Response.vi" Type="VI" URL="../Decode Response.vi"/>
 			<Item Name="Get cmd info from step name.vi" Type="VI" URL="../Get cmd info from step name.vi"/>
 			<Item Name="Get Command Info from library.vi" Type="VI" URL="../Get Command Info from library.vi"/>
 			<Item Name="Import Commands.vi" Type="VI" URL="../Import Commands.vi"/>
 			<Item Name="Normal String to Hex String.vi" Type="VI" URL="../Normal String to Hex String.vi"/>
 			<Item Name="opcode response to string.vi" Type="VI" URL="../opcode response to string.vi"/>
 			<Item Name="Send Command.vi" Type="VI" URL="../Send Command.vi"/>
+			<Item Name="Verify Response.vi" Type="VI" URL="../Verify Response.vi"/>
 			<Item Name="Wait for Response.vi" Type="VI" URL="../Wait for Response.vi"/>
 		</Item>
 		<Item Name="support" Type="Folder">
