@@ -153,12 +153,13 @@
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="NFC Opcode Sender" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{9B46B32B-E282-46EF-A8DC-B20F2561DD3D}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{7C37E3A4-369C-4754-99AA-F8A45F453BA8}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{D879956E-6B2C-4E7F-9F1E-CA68FE5C9F66}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{D39A035B-3D1E-4044-A832-C572E2475F23}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.Dexcom.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{43BD2A03-E482-492B-B2A8-0BF1C6FB8359}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{18A4C6AF-A2BB-4629-8953-2D767DDA91AC}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">NFC Opcode Sender</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -166,25 +167,25 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NFC Opcode Sender</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{42B08F27-6D32-42E0-A913-E4C23EAB566A}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{20AF754B-36F2-4B65-8CC3-FF788F53B1E3}</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">NFC Opcode Sender v0.0.0.0.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/NFC Opcode Sender/NFC Opcode Sender v0.0.0.0.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">NFC Opcode Sender.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/NFC Opcode Sender/NFC Opcode Sender.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/NFC Opcode Sender/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/1.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B922FF44-E96C-4803-AC83-76450BA64C58}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2EB788D9-BE04-47C4-9BE9-3B38E6CE35D3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/G7 Commands List.xlsx</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">Dexcom</Property>
@@ -192,98 +193,8 @@
 				<Property Name="TgtF_internalName" Type="Str">NFC Opcode Sender</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 Dexcom</Property>
 				<Property Name="TgtF_productName" Type="Str">NFC Opcode Sender</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{0CD0CEA2-EADC-4E70-AE04-B761FF712720}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">NFC Opcode Sender v0.0.0.0.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="NFC Opcode Sender v0.0.0.1" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{B8C4D02A-813E-4581-AB4A-7CEFE58F986C}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{E94A62D3-C3B4-4689-BA7D-F074AEA8DA5C}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_serverType" Type="Int">0</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.Dexcom.com</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{2312F72A-D18C-43E5-BE98-15C41C7C8276}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">NFC Opcode Sender v0.0.0.1</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NFC Opcode Sender v0.0.0.1</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{DF839798-0C28-4E44-89DA-B58BFEAD4649}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">NFC Opcode Sender.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/NFC Opcode Sender v0.0.0.1/NFC Opcode Sender.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/NFC Opcode Sender v0.0.0.1/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{103799BE-B039-4A2C-B421-0BDD50A89854}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/G7 Commands List.xlsx</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_companyName" Type="Str">Dexcom</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">NFC Opcode Sender v0.0.0.1</Property>
-				<Property Name="TgtF_internalName" Type="Str">NFC Opcode Sender v0.0.0.1</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 Dexcom</Property>
-				<Property Name="TgtF_productName" Type="Str">NFC Opcode Sender v0.0.0.1</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{09E80251-330F-451B-BA1F-1E28479AE0E7}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{10C3455E-D132-475B-A455-1C834DE76A58}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">NFC Opcode Sender.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="NFC Opcode Sender v0.0.0.2" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{285F546E-BEC5-499D-86FF-A6B62632683D}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{A76FAC28-E4DA-4358-A0C3-C3574FB13F9D}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_serverType" Type="Int">0</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.Dexcom.com</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{449F208A-16C5-40C3-A30D-D001DC46739A}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">NFC Opcode Sender v0.0.0.2</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NFC Opcode Sender v0.0.0.2</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{9BDA159B-5992-44F7-93F6-6628B8752387}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">NFC Opcode Sender v0.0.0.2.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/NFC Opcode Sender v0.0.0.2/NFC Opcode Sender v0.0.0.2.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/NFC Opcode Sender v0.0.0.2/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{287A52A2-2BB4-4623-BBC5-652235B1E295}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/G7 Commands List.xlsx</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_companyName" Type="Str">Dexcom</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">NFC Opcode Sender v0.0.0.2</Property>
-				<Property Name="TgtF_internalName" Type="Str">NFC Opcode Sender v0.0.0.2</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 Dexcom</Property>
-				<Property Name="TgtF_productName" Type="Str">NFC Opcode Sender v0.0.0.2</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{BAD3C8D3-DDF9-4A9A-BB3A-8090B321375B}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">NFC Opcode Sender v0.0.0.2.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
